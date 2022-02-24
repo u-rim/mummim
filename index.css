@@ -1,0 +1,52 @@
+<style>
+
+div
+{font-family: 'Montserrat', sans-serif;
+ }
+ header
+{font-family: 'Montserrat', sans-serif;
+ }
+ .font01
+ {
+     font-weight: bold;
+     font-size: 120px; 
+     color:white;
+    
+                         
+ }
+ .font02,.font03
+ {
+     line-height:85px;
+     font: weigt 75px;;
+     font-size:60px;
+     color:white;
+ }
+ body{
+    font-family: 'Montserrat', sans-serif;
+     text-align:center;
+     background-color: black;
+ }  
+header {
+   text-align: right;
+   color: rgb(255, 255, 255);      
+            
+}
+span{
+    padding: 0 15px;
+    color: rgb(255, 255, 255);                        
+}
+a:hover{
+    text-decoration: underline;
+    opacity: .5;
+    color: gray;
+}
+a:visited{
+    color: white;
+
+}
+video{         
+     
+    width: 200px;
+}
+
+</style>
