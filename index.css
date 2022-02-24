@@ -14,12 +14,23 @@ div
     
                          
  }
- .font02,.font03
+ .font02
  {
+     position: relative;
+     top: 30px;
      line-height:85px;
      font: weigt 75px;;
      font-size:60px;
      color:white;
+ }
+ .font03
+ {
+    text-align: center;
+    line-height:85px;
+    font: weigt 75px;;
+    font-size:60px;
+    color:white;
+
  }
  body{
     font-family: 'Montserrat', sans-serif;
@@ -48,5 +59,31 @@ video{
      
     width: 200px;
 }
+.animated-text{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: black;
+    padding: 0 40px;
+    height: 60px;
+    overflow: hidden;
+}
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+.line:first-child{
+    animation: anim 12s infinite;
+}
+@keyframes anim {
 
+    16%{margin-top: -60px;}
+    33%{margin-top: -120px;}
+    50%{margin-top: -180px;}
+    82%{margin-top: 0px;}
+    }
 </style>
