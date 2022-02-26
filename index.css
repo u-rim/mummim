@@ -1,5 +1,29 @@
 <style>
 
+html, body {
+    height: 100vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .parent {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+  }
+
+  .part {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    background: black;
+  }
+
+}
 div
 {font-family: 'Montserrat', sans-serif;
  }
@@ -10,9 +34,7 @@ div
  {
      font-weight: bold;
      font-size: 120px; 
-     color:white;
-    
-                         
+     color:white;                      
  }
  .font02
  {
@@ -61,8 +83,8 @@ video{
 }
 .animated-text{
     color: #fff;
-    position: absolute;
-    top: 35%;
+    position: relative;
+    top: 80px;
     left: 50%;
     transform: translate(-50%,-50%);
     background: black;
@@ -86,4 +108,16 @@ video{
     50%{margin-top: -180px;}
     82%{margin-top: 0px;}
     }
+
+    .about,.p01,.c01{
+        color: white;
+        font-size: 80px;
+        font-weight: normal;
+    }
+    .about01{
+        color: white;
+        font-size: 18px;
+       
+    }
+
 </style>
