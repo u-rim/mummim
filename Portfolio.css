@@ -1,0 +1,65 @@
+header,div,p
+{font-family: 'Montserrat', sans-serif;
+
+ }
+ header {
+   text-align: right;
+   color: black;   
+            
+}
+span{
+    padding: 0 15px;   
+    color: rgb(255, 255, 255);      
+}
+body{
+     background-color: white;
+}
+a:visited{
+    color: black;}
+
+   .line{
+       text-transform: uppercase;
+       text-align: center;
+       font-size: 40px;
+       line-height: 60px;
+   }   
+ .con01{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10vh;
+    
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+  
+}   
+.con02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+.item01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+.con03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+.item02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+} 
+
+</style>

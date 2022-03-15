@@ -1,0 +1,45 @@
+header,div,body
+{font-family: 'Montserrat', sans-serif;
+
+ }
+ header {
+   text-align: right;
+   color: black;   
+            
+}
+span{
+    padding: 0 15px;   
+    color: rgb(0, 0, 0);      
+}
+body{
+     background-color: white;
+}
+a:visited{
+    color: black;}
+
+   .line{
+       text-transform: uppercase;
+       text-align: center;
+       font-size: 40px;
+       line-height: 60px;
+   }
+
+   .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+
+  
+   
+}
+
+}
+</style>
